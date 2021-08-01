@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const bodyparser = require("body-parser");
 const { stringify } = require("querystring");
 mongoose.connect('mongodb://localhost/contactgymweb', {useNewUrlParser: true, useUnifiedTopology: true});
-const port =912;
+const port = process.env.PORT || 912;
 
 //define mangoose
 const contactSchema = new mongoose.Schema({
