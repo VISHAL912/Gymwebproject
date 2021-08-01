@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+width: fit-content;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+
+
+
+    /* -------------- Home --------------*/
+.home{
+    background-image: url(/static/img/back.jpeg);
+    z-index: -1;
+    width: 100%;
+    height: 88rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.home input:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+    /* ------- Nav ---------- */
+nav{
+
+    position: sticky;
+    top: 0;
+    width: fit-content;
+    height: 8rem;
+   
+}
+nav ul li{
+    display: inline;
+    float: right;
+}
+nav ul li a{
+    margin-right: 2rem;
+    display: block;
+    font-family:  Arial, sans-serif;
+    color: white;
+    padding-top: 2.5rem ;
+    margin-left: 2.5rem;
+    padding-left: 0.7rem ;
+    padding-right: 0.7rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+   
+}
+
+nav ul li #nav:hover{
+    color: rgb(175, 231, 61);
+    transition: 0.3s ease;
+    border-bottom: 0.4rem solid chartreuse;
+    border-radius: 0.2rem;
+}
+.head{
+    padding: 14.5rem 9rem;
+}
+.home h1{
+    color: rgb(252, 58, 58);
+    font-size: 4.5rem;
+    font-family: 'Bangers', cursive;
+}
+
+    /* --------- ABout ----------- */
+
+#about{
+    height: 60rem;
+    width: 100%;
+    z-index: 1;
+}
+#about h1{
+    margin-top: 2.3rem;
+    margin-left: 65rem;
+    margin-right: 60rem;
+    font-size: 3.4rem;
+    padding: 1rem;
+    border-bottom: .8rem solid red;
+    border-radius: .5rem;
+    font-family: 'Kaushan Script', cursive;
+} 
+#about img{
+   width: 53rem;
+   height: 40rem;
+   float: left;
+   margin-left: 12rem;
+   margin-right: 5rem;
+   margin-top: 0rem;
+} 
+#about p{
+    font-size: 2.3rem;
+    margin-right: 11rem;
+    margin-top: 7rem;
+    
+} 
+#about p input{
+    padding: 1rem 1.9rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+    background-color: rgb(230, 36, 45);
+    color: white;
+    border-radius: 5rem;
+}
+#about p input:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+/* --------- trainer ---------- */
+#trainer{
+    height: 60rem;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+#trainer h1{
+    font-size: 4rem;
+    border-radius: .5rem;
+    margin-left: 66.6rem;
+    margin-right: 71.5rem;
+    margin-top: -1rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    color: rgb(243, 242, 240);
+    border-bottom: .8rem solid rgb(173, 248, 62);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.flex-item{
+    width: 33.5rem;
+    height: 33.5rem;
+    margin-top: 7.5rem;
+    margin-left: 9.5rem;
+    margin-right: 1rem;
+    background-color: rgb(28, 29, 27);
+    font-size: 2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.flex-container img{
+    height: 16rem;
+    width: 16rem;
+    border-radius: 9rem;
+    margin-left: 8.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.1rem;
+    border: .6rem solid rgb(200, 250, 64);
+}
+samp{
+    font-size: 2.8rem;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-bottom: 1.9rem;
+   
+}
+.flex-item:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    background-color: chartreuse;
+    color: black;
+}
+.flex-container img:hover{
+    border-color: black;
+}
+#flex-item-2 p{
+     padding-left: 2.5rem;
+     padding-right: 1.5rem;
+     padding-top: .5rem;
+}
+#flex-item-1 p{
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+    padding-top: .5rem;
+}
+#flex-item-3 p{
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+    padding-top: .5rem;
+}
+
+
+/* contact */
+
+#contact{
+    height: 69rem;
+    width: 100%;
+  }
+  #contact h1{
+      font-family: 'Kaushan Script', cursive;
+      font-size: 4rem;
+      border-radius: .5rem;
+      margin-left: 62.5rem;
+      margin-right: 67rem;
+      margin-top: -1rem;
+      padding-top: 4rem;
+      padding-bottom: 1rem;
+      color: rgb(15, 15, 15);
+      border-bottom: .8rem solid rgb(255, 47, 47);
+  }
+  .box-1{
+      width: 40%;
+      height: 41.5rem;
+      float: left;
+      margin-left: 3.5rem;
+      margin-top: 5rem;
+  }
+  .box-1 h2{
+      margin-left: 4rem;
+      padding-top: 2rem;
+      font-size: 2.7rem;
+      padding-bottom: 1rem;
+      
+  }
+  .box-1 p{
+      margin-left: 4rem;
+      margin-bottom: .7rem;
+      font-size: 2.2rem;
+      margin-right: 2.5rem;
+      font-family: 'Open Sans', sans-serif;
+  } 
+  #icon{
+      margin-left: 0rem;
+      margin-top: .5rem;
+      color: rgb(240, 36, 36);
+  }
+  
+  
+  .box-2{
+      width: 46%;
+      height: 30.5rem;
+     
+      float: right;
+     margin-right: 3.5rem;
+      margin-top: 4.5rem;
+  }
+  .box-2 h2{
+      margin-left: 4rem;
+      padding-top: 2rem;
+      font-size: 2.7rem;
+      padding-bottom: 1rem;
+      
+  }
+  input[type=text],input[type=email]{
+      height: 4.5rem;
+      width: 25rem;
+      margin: 2rem;
+      border-radius: .8rem;
+      border-color: rgb(192, 192, 192);
+      padding: 2rem;
+      font-size: 2rem;
+      box-shadow: white;
+  }
+  #contact input[type=button]{
+      font-size: 2rem;
+      padding: 1rem 2rem;
+      background-color:rgb(255, 28, 28) ;
+      color:white;
+      border-radius: .7rem;
+      margin: 2rem;
+      box-shadow: none;
+  }
+  #contact  input[type=button]:hover{
+      transform: scale(1.1);
+      transition: 0.5s ease;
+      cursor: pointer;
+  }
+
+.btn{
+font-family: 'Baloo Bhai 2', cursive;
+margin: 0rem 1rem;
+background-color: rgb(32, 29, 29);
+color: rgb(218, 231, 218);
+padding: .5rem 1.5rem;
+border: lightblue;
+border-radius: .3rem;
+cursor: pointer;
+}
+.btn:hover{
+background-color: rgb(230, 167, 167);
+}
+
+
+
+
+#contact1{
+background-color: rgb(180 210 206);
+color: rgb(15, 15, 15);
+/* border: 3px solid red;*/
+margin: 7rem auto;
+padding:5rem 8rem ;
+width: 90%;
+border-radius: .8rem;
+
+
+}
+#contact1 h1{
+text-align: center;
+color: black;
+}
+.form-group input{
+font-family: 'Baloo Bhai 2', cursive;
+text-align: center;
+display: block;
+width: 50rem;
+padding: .4rem ;
+border: .3rem solid rgb(109, 109, 211);
+margin: 1.5rem auto;
+font-size: 2rem;
+border-radius: 2rem;
+
+}
+
+
+
+
+.btn1{
+ display: block;
+width: 42% ;
+
+margin-left: 36rem;
+border-radius: 2rem;
+padding: 1rem;
+color: rgb(252, 249, 249);
+background-color: rgb(19, 17, 17);
+justify-content: center;
+font-size: 2rem;
+
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    color: rgb(106, 231, 34);
+    background-color: rgb(29, 29, 29);
+    height: 38rem;
+}
+
+footer .left{
+    padding-top: 8rem;
+    
+    width: 25rem;
+    height: 15rem;
+    margin-left: 20rem;
+    
+}
+.left ul li{
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-bottom: .5rem;
+}
+.left ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+footer .right{
+    padding-top: 8rem;
+    width: 27rem;
+    height: 15rem;
+    margin-left: 65rem;
+    margin-top: -23rem;
+    
+}
+.right p{
+    color: white;
+    font-size: 2rem;
+}
+
+footer .right-1{
+    padding-top: 8rem;
+     width: 25rem;
+    height: 15rem;
+    margin-left: 113rem;
+    margin-top: -23rem;
+    
+}
+.right-1 ul li{
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-bottom: .5rem;
+}
+.right-1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+hr{
+    margin-top: 4.5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.copy{
+    color: white;
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
